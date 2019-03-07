@@ -4559,3 +4559,83 @@ LogInit: Object subsystem initialized
 [2019.03.07-23.05.55:340][698]SourceControl:  create mode 100644 Content/PlayerUI.uasset
 [2019.03.07-23.05.55:340][698]SourceControl:  rewrite Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset (93%)
 [2019.03.07-23.05.55:357][698]SourceControl: Commited [master f9af23e] Health and Mana UI + mana regeneration over time.
+[2019.03.07-23.07.13:900][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../GitHub Folder/GitProject/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.07-23.07.14:268][254]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/Level12D07595044BF47053119FF9113BE57A4.tmp' to '../../../../../GitHub Folder/GitProject/Content/Level1.umap'
+[2019.03.07-23.07.18:482][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.07-23.08.13:846][933]BlueprintLog: New page: Compile PlayerUI
+[2019.03.07-23.08.14:497][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerUI" FILE="../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset" SILENT=true
+[2019.03.07-23.08.14:519][947]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/PlayerUIE50CBF044AE476968D6182A337639F63.tmp' to '../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset'
+[2019.03.07-23.09.08:414][566]BlueprintLog: New page: Compile PlayerUI
+[2019.03.07-23.09.09:220][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerUI" FILE="../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset" SILENT=true
+[2019.03.07-23.09.09:243][623]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/PlayerUID98EA7664D3FFD99B3C491825B2B7DC4.tmp' to '../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset'
+[2019.03.07-23.09.16:223][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../../GitHub Folder/GitProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2019.03.07-23.09.16:288][270]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/ThirdPersonCharacterB8F4B5D14C1A35A5ECC2E0B99021E2F4.tmp' to '../../../../../GitHub Folder/GitProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.07-23.09.18:479][470]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.07-23.09.18:496][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.09.18:497][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.07-23.09.18:497][470]PIE: New page: PIE session: Level1 (7 Mar 2019 23:09:18)
+[2019.03.07-23.09.18:497][470]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2019.03.07-23.09.18:509][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012312s)
+[2019.03.07-23.09.18:510][470]LogAIModule: Creating AISystem for world Level1
+[2019.03.07-23.09.18:510][470]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2019.03.07-23.09.18:510][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.013248s)
+[2019.03.07-23.09.18:583][470]LogInit: XAudio2 using 'Speakers (AFX Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.07-23.09.18:606][470]LogInit: FAudioDevice initialized.
+[2019.03.07-23.09.18:641][470]LogLoad: Game class is 'GameModeBase'
+[2019.03.07-23.09.18:645][470]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.03.07-23.09.18
+[2019.03.07-23.09.18:645][470]LogWorld: Bringing up level for play took: 0.002908
+[2019.03.07-23.09.18:658][470]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 -0.05
+[2019.03.07-23.09.18:659][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.09.25:696][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.09.25:696][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.07-23.09.25:753][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.07-23.09.25:754][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.09.25:789][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.07-23.09.25:875][129]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2019.03.07-23.09.27:017][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.07-23.09.53:112][914]BlueprintLog: New page: Compile PlayerUI
+[2019.03.07-23.09.53:896][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerUI" FILE="../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset" SILENT=true
+[2019.03.07-23.09.53:920][966]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/PlayerUIF6FFE3314D9A1CE5D7EB9FBC71B5FB59.tmp' to '../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset'
+[2019.03.07-23.09.54:853][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.07-23.09.54:865][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.09.54:865][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.07-23.09.54:865][ 59]PIE: New page: PIE session: Level1 (7 Mar 2019 23:09:54)
+[2019.03.07-23.09.54:865][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2019.03.07-23.09.54:877][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011755s)
+[2019.03.07-23.09.54:878][ 59]LogAIModule: Creating AISystem for world Level1
+[2019.03.07-23.09.54:878][ 59]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2019.03.07-23.09.54:878][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.012754s)
+[2019.03.07-23.09.54:957][ 59]LogInit: XAudio2 using 'Speakers (AFX Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.07-23.09.54:982][ 59]LogInit: FAudioDevice initialized.
+[2019.03.07-23.09.55:010][ 59]LogLoad: Game class is 'GameModeBase'
+[2019.03.07-23.09.55:014][ 59]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.03.07-23.09.55
+[2019.03.07-23.09.55:014][ 59]LogWorld: Bringing up level for play took: 0.003063
+[2019.03.07-23.09.55:028][ 59]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 0.319
+[2019.03.07-23.09.55:028][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.11.07:759][553]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.11.07:760][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.07-23.11.07:823][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.07-23.11.07:823][553]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.03.07-23.11.07:862][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.07-23.11.07:890][554]LogPlayLevel: Display: Destroying online subsystem :Context_132
+[2019.03.07-23.11.09:204][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.07-23.11.09:490][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../GitHub Folder/GitProject/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.07-23.11.09:845][694]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/Level12F9BC11540CEDBA1719AA385BF12F850.tmp' to '../../../../../GitHub Folder/GitProject/Content/Level1.umap'
+[2019.03.07-23.11.12:441][938]SourceControl: fatal: E:/Unreal/UE_4.20/Engine/Content: 'E:/Unreal/UE_4.20/Engine/Content' is outside repository
+[2019.03.07-23.11.28:704][938]LogSlate: Window 'Submit Files' being destroyed
+[2019.03.07-23.11.29:800][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../GitHub Folder/GitProject/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.07-23.11.30:152][ 19]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/Level187C9CBA84F3555D71CC8F8B7ED8DF4CC.tmp' to '../../../../../GitHub Folder/GitProject/Content/Level1.umap'
+[2019.03.07-23.11.32:419][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerUI" FILE="../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset" SILENT=true
+[2019.03.07-23.11.32:443][228]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/PlayerUID4B3FF8E4EB47BEA808CD28537506CF8.tmp' to '../../../../../GitHub Folder/GitProject/Content/PlayerUI.uasset'
+[2019.03.07-23.11.34:172][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../GitHub Folder/GitProject/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.07-23.11.34:529][380]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/Level1499196994FE2BADDBC27068F79A44D88.tmp' to '../../../../../GitHub Folder/GitProject/Content/Level1.umap'
+[2019.03.07-23.11.34:548][380]LogFileHelpers: Saving map 'Level1' took 0.495
+[2019.03.07-23.11.35:588][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../../GitHub Folder/GitProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2019.03.07-23.11.35:649][460]LogSavePackage: Moving '../../../../../GitHub Folder/GitProject/Saved/ThirdPersonCharacter8944055A4EFE4703233969AF83272438.tmp' to '../../../../../GitHub Folder/GitProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.07-23.11.39:236][841]SourceControl: fatal: E:/Unreal/UE_4.20/Engine/Content: 'E:/Unreal/UE_4.20/Engine/Content' is outside repository
+[2019.03.07-23.11.43:995][841]LogSlate: Window 'Submit Files' being destroyed
+[2019.03.07-23.11.44:551][841]LogSourceControl: commit successful: [master fbc6620] mana cooldown slider
+[2019.03.07-23.11.44:826][841]SourceControl: [master fbc6620] mana cooldown slider
+[2019.03.07-23.11.44:826][841]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2019.03.07-23.11.44:826][841]SourceControl:  rewrite Content/PlayerUI.uasset (69%)
+[2019.03.07-23.11.44:843][841]SourceControl: Commited [master fbc6620] mana cooldown slider.
