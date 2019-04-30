@@ -1,6 +1,8 @@
-﻿Log file open, 04/17/19 16:58:52
+﻿Log file open, 04/30/19 18:18:49
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -8,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GitProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.025531
+LogStats: Stats thread started at 0.615689
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.771s to configure plugins.
+LogStreaming: Display: Took  0.305s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,7 +118,7 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1070
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -145,667 +147,610 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.17-15.58.53:289][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.17-15.58.53:289][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.17-15.58.53:351][  0]LogHAL: Display: Platform has ~ 16 GB [17060872192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.17-15.58.53:351][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.04.17-15.58.53:351][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.17-15.58.53:369][  0]LogInit: Computer: DESKTOP-A8BHQ1U
-[2019.04.17-15.58.53:369][  0]LogInit: User: pokim
-[2019.04.17-15.58.53:369][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.17-15.58.53:369][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.04.17-15.58.53:369][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.04.17-15.58.53:369][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.17-15.58.53:369][  0]LogMemory: Process Physical Memory: 100.75 MB used, 100.75 MB peak
-[2019.04.17-15.58.53:369][  0]LogMemory: Process Virtual Memory: 91.58 MB used, 91.58 MB peak
-[2019.04.17-15.58.53:369][  0]LogMemory: Physical Memory: 9033.21 MB used,  7237.30 MB free, 16270.52 MB total
-[2019.04.17-15.58.53:369][  0]LogMemory: Virtual Memory: 4629.07 MB used,  7237.30 MB free, 134217728.00 MB total
-[2019.04.17-15.58.53:484][  0]LogInit: Using OS detected language (en-GB).
-[2019.04.17-15.58.53:484][  0]LogInit: Using OS detected locale (en-GB).
-[2019.04.17-15.58.53:502][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.04.17-15.58.54:648][  0]LogStreaming: Display: Took  1.164s to InitEngineTextLocalization.
-[2019.04.17-15.58.54:649][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.17-15.58.55:036][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.17-15.58.55:036][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.17-15.59.00:855][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2019.04.17-15.59.00:855][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.17-15.59.00:934][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.04.17-15.59.00:934][  0]LogD3D11RHI:       8088/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.04.17-15.59.00:962][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.04.17-15.59.00:962][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.04.17-15.59.00:964][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.17-15.59.00:964][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.17-15.59.00:964][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.17-15.59.00:975][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.17-15.59.00:975][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.17-15.59.00:975][  0]LogWindows: EnumDisplayDevices:
-[2019.04.17-15.59.00:975][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.04.17-15.59.00:976][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.04.17-15.59.00:976][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.04.17-15.59.00:976][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.04.17-15.59.00:977][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.04.17-15.59.00:977][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.04.17-15.59.00:978][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.04.17-15.59.00:978][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.04.17-15.59.00:978][  0]LogD3D11RHI:   Driver Version: 419.67 (internal:25.21.14.1967, unified:419.67)
-[2019.04.17-15.59.00:978][  0]LogD3D11RHI:      Driver Date: 3-17-2019
-[2019.04.17-15.59.00:978][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.04.17-15.59.01:030][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.17-15.59.01:043][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.04.17-15.59.01:135][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Intermediate/Shaders/WorkingDirectory/13764/).
-[2019.04.17-15.59.01:135][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pokim/AppData/Local/Temp/UnrealShaderWorkingDir/5D940544454B84E5FA3CEBA80F01C32F/'.
-[2019.04.17-15.59.03:160][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.17-15.59.03:189][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.17-15.59.03:218][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.17-15.59.03:240][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.17-15.59.03:326][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.17-15.59.03:343][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.17-15.59.03:361][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.17-15.59.03:379][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.17-15.59.03:386][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:488][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:489][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.17-15.59.03:490][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.17-15.59.03:648][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.17-15.59.03:648][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.17-15.59.03:717][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.17-15.59.03:717][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.17-15.59.03:732][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.17-15.59.03:748][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.17-15.59.03:768][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.17-15.59.03:843][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.17-15.59.03:864][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.17-15.59.03:864][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.17-15.59.05:731][  0]LogXGEController: Cleaning working directory: C:/Users/pokim/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.17-15.59.05:732][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.17-15.59.05:732][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.17-15.59.05:732][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.17-15.59.12:369][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.17-15.59.32:639][  0]LogDerivedDataCache: Loaded boot cache 20.27s 71MB C:/Users/pokim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.17-15.59.32:639][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/pokim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.04.17-15.59.32:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.17-15.59.32:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.17-15.59.32:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.17-15.59.32:639][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.17-15.59.32:950][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.17-15.59.32:963][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pokim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.17-15.59.32:963][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.17-15.59.32:963][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.17-15.59.32:984][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.17-15.59.32:988][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.17-15.59.33:122][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.17-15.59.35:408][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
-[2019.04.17-15.59.35:842][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.17-15.59.37:199][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.17-15.59.37:203][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.17-15.59.37:203][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.17-15.59.37:203][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.17-15.59.37:203][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.17-15.59.37:400][  0]LogNetVersion: GitProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 423630275)
-[2019.04.17-15.59.42:536][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.176045 seconds
-[2019.04.17-15.59.42:545][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.04.17-15.59.42:545][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.04.17-15.59.42:545][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.17-16.00.12:925][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.17-16.00.12:938][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.17-16.00.14:645][  0]SourceControl: Source control is disabled
-[2019.04.17-16.00.18:701][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.17-16.00.19:043][  0]LogOcInput: OculusInput pre-init called
-[2019.04.17-16.00.19:381][  0]LogEngine: Initializing Engine...
-[2019.04.17-16.00.19:409][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2019.04.17-16.00.19:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.17-16.00.19:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.17-16.00.19:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.17-16.00.19:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.17-16.00.20:707][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.17-16.00.20:773][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.17-16.00.20:844][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.00.20:899][  0]LogInit: FAudioDevice initialized.
-[2019.04.17-16.00.20:899][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.17-16.00.21:652][  0]LogDerivedDataCache: Saved boot cache 0.75s 71MB C:/Users/pokim/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.04.17-16.00.21:659][  0]LogInit: Texture streaming: Enabled
-[2019.04.17-16.00.21:696][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.17-16.00.21:738][  0]LogInit: Transaction tracking system initialized
-[2019.04.17-16.00.21:900][  0]BlueprintLog: New page: Editor Load
-[2019.04.17-16.00.22:989][  0]LocalizationService: Localization service is disabled
-[2019.04.17-16.00.26:215][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.17-16.00.26:215][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.17-16.00.26:215][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.17-16.00.26:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.17-16.00.26:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.17-16.00.26:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.17-16.00.26:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.17-16.00.26:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/' took 0.07s
-[2019.04.17-16.00.28:378][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.17-16.00.28:399][  0]LightingResults: New page: Lighting Build
-[2019.04.17-16.00.28:433][  0]MapCheck: New page: Map Check
-[2019.04.17-16.00.28:433][  0]LightingResults: New page: Lighting Build
-[2019.04.17-16.00.29:343][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.04.17-16.00.29:377][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.17-16.00.29:409][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.17-16.00.29:557][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 147.773ms to complete.
-[2019.04.17-16.00.29:557][  0]LogFileHelpers: Loading map 'Template_Default' took 1.179
-[2019.04.17-16.00.29:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.00.29:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.00.29:938][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.00.29:951][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.00.29:982][  0]LogCollectionManager: Loaded 0 collections in 0.007321 seconds
-[2019.04.17-16.00.30:017][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pokim/OneDrive/Documents/GitHub/GitProject/Saved/Collections/' took 0.02s
-[2019.04.17-16.00.30:017][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Developers/pokim/Collections/' took 0.00s
-[2019.04.17-16.00.30:017][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Collections/' took 0.00s
-[2019.04.17-16.00.30:017][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.04.17-16.00.30:042][  0]LogContentBrowser: Native class hierarchy populated in 0.0233 seconds. Added 2572 classes and 603 folders.
-[2019.04.17-16.00.30:056][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.04.17-16.00.31:657][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.04.17-16.00.31:681][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.04.17-16.00.31:724][  0]LogSlate: Took 0.012725 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.17-16.00.31:736][  0]LogSlate: Took 0.010701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.17-16.00.31:752][  0]LogSlate: Took 0.009592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.17-16.00.31:766][  0]LogSlate: Took 0.014249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.04.17-16.00.32:140][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.04.17-16.00.32:405][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.04.17-16.00.32:405][  0]LogLoad: (Engine Initialization) Total time: 151.28 seconds
-[2019.04.17-16.00.32:405][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.17-16.00.32:487][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.17-16.00.32:675][  3]LogAssetRegistry: Asset discovery search completed in 57.2900 seconds
-[2019.04.17-16.00.32:678][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.17-16.00.32:678][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000333 seconds (updated 0 objects)
-[2019.04.17-16.02.04:067][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.02.04:130][785]LogSlate: Took 0.025058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.17-16.04.18:091][771]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.17-16.04.21:576][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.25:253][771]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
-[2019.04.17-16.04.25:253][771]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading ../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1.uasset.
-[2019.04.17-16.04.25:254][771]LoadErrors: Error: /Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1 : Can't find file for asset. /Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat
-[2019.04.17-16.04.25:255][771]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
-[2019.04.17-16.04.25:256][771]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading ../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1.uasset.
-[2019.04.17-16.04.27:565][771]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
-[2019.04.17-16.04.27:565][771]LoadErrors: Failed to load /Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat.16275_Palomino_Horse_Walking_V1Mat Referenced by 16275_Palomino_Horse_Walking_V1
-[2019.04.17-16.04.27:566][771]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading NULL.
-[2019.04.17-16.04.27:567][771]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
-[2019.04.17-16.04.27:568][771]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading NULL.
-[2019.04.17-16.04.33:647][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:648][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:648][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:649][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:650][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:650][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:650][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:651][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:651][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:652][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:652][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:653][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:653][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:654][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:654][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:655][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:655][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:656][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:656][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:656][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:657][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:657][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:658][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:658][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:659][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:659][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:660][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:660][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:661][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:661][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:662][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:662][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:662][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:663][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:663][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:664][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:664][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:665][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:665][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:666][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:666][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:667][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:668][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:669][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:669][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:670][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.33:670][771]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.04.17-16.04.35:218][771]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.04.35:298][771]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
+[2019.04.30-17.18.50:524][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.30-17.18.50:524][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.30-17.18.50:539][  0]LogHAL: Display: Platform has ~ 24 GB [25720393728 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.30-17.18.50:540][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.30-17.18.50:540][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.30-17.18.50:541][  0]LogInit: Computer: MACHOMANRANDYSA
+[2019.04.30-17.18.50:541][  0]LogInit: User: ezich
+[2019.04.30-17.18.50:541][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.30-17.18.50:541][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.30-17.18.50:542][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2019.04.30-17.18.50:542][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.30-17.18.50:542][  0]LogMemory: Process Physical Memory: 102.65 MB used, 102.66 MB peak
+[2019.04.30-17.18.50:542][  0]LogMemory: Process Virtual Memory: 91.79 MB used, 91.79 MB peak
+[2019.04.30-17.18.50:542][  0]LogMemory: Physical Memory: 5715.43 MB used,  18813.45 MB free, 24528.88 MB total
+[2019.04.30-17.18.50:542][  0]LogMemory: Virtual Memory: 4634.02 MB used,  18813.45 MB free, 134217728.00 MB total
+[2019.04.30-17.18.50:839][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.30-17.18.50:839][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.30-17.18.50:843][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.30-17.18.51:259][  0]LogStreaming: Display: Took  0.420s to InitEngineTextLocalization.
+[2019.04.30-17.18.51:260][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.30-17.18.51:354][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.30-17.18.51:354][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.30-17.18.51:770][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.30-17.18.51:770][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.30-17.18.51:930][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.04.30-17.18.51:930][  0]LogD3D11RHI:       8081/0/12264 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.30-17.18.51:933][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.30-17.18.51:933][  0]LogD3D11RHI:       0/0/12264 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.30-17.18.51:933][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.30-17.18.51:940][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.30-17.18.51:940][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.30-17.18.51:940][  0]LogWindows: EnumDisplayDevices:
+[2019.04.30-17.18.51:940][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.04.30-17.18.51:941][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.30-17.18.51:941][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.30-17.18.51:941][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.04.30-17.18.51:942][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.30-17.18.51:942][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.04.30-17.18.51:942][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.04.30-17.18.51:942][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.04.30-17.18.51:942][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.04.30-17.18.51:991][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.30-17.18.52:018][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.30-17.18.52:064][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/ezich/Documents/Github/GitProject/Intermediate/Shaders/WorkingDirectory/2816/).
+[2019.04.30-17.18.52:064][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ezich/AppData/Local/Temp/UnrealShaderWorkingDir/4B334F1744A35B2BD852B8A52E49E144/'.
+[2019.04.30-17.18.52:878][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.30-17.18.52:909][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.30-17.18.52:939][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.30-17.18.52:969][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.30-17.18.52:998][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.30-17.18.53:027][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.30-17.18.53:055][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.30-17.18.53:084][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.30-17.18.53:107][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.30-17.18.53:241][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.30-17.18.53:351][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.30-17.18.53:351][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.30-17.18.53:393][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.30-17.18.53:393][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.30-17.18.53:422][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.30-17.18.53:450][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.30-17.18.53:480][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.30-17.18.53:510][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.30-17.18.53:535][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.30-17.18.53:535][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.30-17.18.54:056][  0]LogXGEController: Cleaning working directory: C:/Users/ezich/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.30-17.18.54:057][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.30-17.18.54:057][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.30-17.18.54:057][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.30-17.18.55:125][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.30-17.18.55:462][  0]LogDerivedDataCache: Loaded boot cache 0.34s 85MB C:/Users/ezich/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.30-17.18.55:462][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ezich/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.30-17.18.55:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ezich/Documents/Github/GitProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.30-17.18.55:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.30-17.18.55:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ezich/Documents/Github/GitProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.30-17.18.55:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.30-17.18.55:483][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.30-17.18.55:500][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ezich/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.30-17.18.55:500][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.30-17.18.55:500][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.30-17.18.55:524][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.30-17.18.55:526][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.30-17.18.55:532][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.30-17.18.55:710][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2019.04.30-17.18.56:103][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.30-17.18.56:487][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.30-17.18.56:552][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.30-17.18.56:552][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.30-17.18.56:552][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.30-17.18.56:552][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.30-17.18.56:702][  0]LogNetVersion: GitProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 423630275)
+[2019.04.30-17.18.57:565][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.214057 seconds
+[2019.04.30-17.18.57:571][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.30-17.18.57:571][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.30-17.18.57:571][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.30-17.19.00:259][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.30-17.19.00:289][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.30-17.19.00:777][  0]SourceControl: Source control is disabled
+[2019.04.30-17.19.03:834][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.30-17.19.04:021][  0]LogOcInput: OculusInput pre-init called
+[2019.04.30-17.19.04:210][  0]LogEngine: Initializing Engine...
+[2019.04.30-17.19.04:212][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.30-17.19.04:214][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.30-17.19.04:214][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.30-17.19.04:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.30-17.19.04:215][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.30-17.19.04:516][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.30-17.19.04:561][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.30-17.19.04:601][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.30-17.19.04:923][  0]LogInit: FAudioDevice initialized.
+[2019.04.30-17.19.04:923][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.30-17.19.05:029][  0]LogDerivedDataCache: Saved boot cache 0.11s 85MB C:/Users/ezich/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.30-17.19.05:037][  0]LogInit: Texture streaming: Enabled
+[2019.04.30-17.19.05:117][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.30-17.19.06:060][  0]LogInit: Transaction tracking system initialized
+[2019.04.30-17.19.06:213][  0]BlueprintLog: New page: Editor Load
+[2019.04.30-17.19.06:816][  0]LocalizationService: Localization service is disabled
+[2019.04.30-17.19.07:665][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.30-17.19.07:665][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.30-17.19.07:665][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.30-17.19.07:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.30-17.19.07:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.30-17.19.07:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.30-17.19.07:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.30-17.19.08:171][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ezich/Documents/Github/GitProject/Content/' took 0.14s
+[2019.04.30-17.19.08:428][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.30-17.19.08:430][  0]LightingResults: New page: Lighting Build
+[2019.04.30-17.19.08:435][  0]MapCheck: New page: Map Check
+[2019.04.30-17.19.08:435][  0]LightingResults: New page: Lighting Build
+[2019.04.30-17.19.08:827][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.30-17.19.08:844][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.30-17.19.08:869][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.30-17.19.09:015][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 144.716ms to complete.
+[2019.04.30-17.19.09:015][  0]LogFileHelpers: Loading map 'Template_Default' took 0.587
+[2019.04.30-17.19.09:155][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-17.19.09:168][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-17.19.09:180][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-17.19.09:191][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-17.19.09:225][  0]LogCollectionManager: Loaded 0 collections in 0.004539 seconds
+[2019.04.30-17.19.09:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ezich/Documents/Github/GitProject/Saved/Collections/' took 0.02s
+[2019.04.30-17.19.09:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ezich/Documents/Github/GitProject/Content/Developers/ezich/Collections/' took 0.01s
+[2019.04.30-17.19.09:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ezich/Documents/Github/GitProject/Content/Collections/' took 0.00s
+[2019.04.30-17.19.09:256][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.30-17.19.09:271][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2572 classes and 603 folders.
+[2019.04.30-17.19.09:282][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.30-17.19.09:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.30-17.19.09:549][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.30-17.19.09:572][  0]LogSlate: Took 0.002683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.30-17.19.09:577][  0]LogSlate: Took 0.002374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.30-17.19.09:587][  0]LogSlate: Took 0.001436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.30-17.19.09:721][  0]LogRenderer: Reallocating scene render targets to support 840x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.30-17.19.09:879][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.30-17.19.09:879][  0]LogLoad: (Engine Initialization) Total time: 24.36 seconds
+[2019.04.30-17.19.09:879][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.30-17.19.09:924][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.30-17.19.10:045][  0]LogSlate: Took 0.056069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.30-17.19.10:247][  4]LogAssetRegistry: Asset discovery search completed in 14.5590 seconds
+[2019.04.30-17.19.10:250][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.30-17.19.10:250][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2019.04.30-17.21.26:816][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-17.21.30:866][888]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.30-17.21.32:080][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EdGraph_0.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.32:996][888]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
+[2019.04.30-17.21.32:996][888]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading ../../../../../../Users/ezich/Documents/Github/GitProject/Content/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1.uasset.
+[2019.04.30-17.21.32:997][888]LoadErrors: Error: /Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1 : Can't find file for asset. /Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat
+[2019.04.30-17.21.32:997][888]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
+[2019.04.30-17.21.32:997][888]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading ../../../../../../Users/ezich/Documents/Github/GitProject/Content/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1.uasset.
+[2019.04.30-17.21.33:600][888]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
+[2019.04.30-17.21.33:600][888]LoadErrors: Failed to load /Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat.16275_Palomino_Horse_Walking_V1Mat Referenced by 16275_Palomino_Horse_Walking_V1
+[2019.04.30-17.21.33:600][888]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading NULL.
+[2019.04.30-17.21.33:601][888]LogLinker: Warning: Can't find file '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat'
+[2019.04.30-17.21.33:601][888]LogLinker: Warning: Can't find file for asset '/Game/Level1Stuff/horse/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/Palomino_Horse_Walking_V1_L1_123c7313e3dd-75f0-4a9a-8184-e1c0a446096b/16275_Palomino_Horse_Walking_V1Mat' while loading NULL.
+[2019.04.30-17.21.35:380][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.EdGraphNode_Comment_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_39' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_Comment_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_108971' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_112027' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_20844' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_21305' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_3716' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4184' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4223' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_4678' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61214' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_61534' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_65164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_7346' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:381][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8427' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8733' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_87421' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CallFunction_8781' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_DynamicCast_179' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:UserConstructionScript.K2Node_FunctionEntry_19' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_203' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_IfThenElse_41' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAction_52' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1058' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_1657' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_50' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_55' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputAxisEvent_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_InputKey_17975' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_1700' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_174' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_190' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableGet_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1333' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1684' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_1685' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_660' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_803' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:382][888]LogBlueprint: Warning: Node '/Game/MixamoAnimPack/MixamoCharacter_Master.MixamoCharacter_Master:EventGraph.K2Node_VariableSet_850' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.04.30-17.21.35:688][888]LogAIModule: Creating AISystem for world Level1
+[2019.04.30-17.21.35:711][888]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
 	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
 	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.04.35:359][771]LogAssetEditorManager: Opening Asset editor for World /Game/Level1.Level1
-[2019.04.17-16.04.35:403][771]Cmd: MAP LOAD FILE="../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.17-16.04.35:403][771]LightingResults: New page: Lighting Build
-[2019.04.17-16.04.35:404][771]LoadErrors: New page: Loading map: Level1.umap
-[2019.04.17-16.04.35:405][771]MapCheck: New page: Map Check
-[2019.04.17-16.04.35:406][771]LightingResults: New page: Lighting Build
-[2019.04.17-16.04.35:476][771]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
+[2019.04.30-17.21.35:753][888]LogAssetEditorManager: Opening Asset editor for World /Game/Level1.Level1
+[2019.04.30-17.21.35:787][888]Cmd: MAP LOAD FILE="../../../../../../Users/ezich/Documents/Github/GitProject/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.30-17.21.35:787][888]LightingResults: New page: Lighting Build
+[2019.04.30-17.21.35:788][888]LoadErrors: New page: Loading map: Level1.umap
+[2019.04.30-17.21.35:788][888]MapCheck: New page: Map Check
+[2019.04.30-17.21.35:788][888]LightingResults: New page: Lighting Build
+[2019.04.30-17.21.35:828][888]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
 	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
 	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.04.35:514][771]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.17-16.04.35:677][771]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.17-16.04.35:984][771]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 306.82ms to complete.
-[2019.04.17-16.04.35:986][771]LogFileHelpers: Loading map 'Level1' took 0.584
-[2019.04.17-16.05.02:171][ 19]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.05.02:196][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.05.02:197][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.05.02:241][ 19]PIE: New page: PIE session: Level1 (17 Apr 2019 18:05:02)
-[2019.04.17-16.05.02:242][ 19]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.05.02:419][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176638s)
-[2019.04.17-16.05.02:420][ 19]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.05.02:420][ 19]LogPlayLevel: PIE: World Init took: (0.001134s)
-[2019.04.17-16.05.02:421][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.178538s)
-[2019.04.17-16.05.02:511][ 19]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.05.02:533][ 19]LogInit: FAudioDevice initialized.
-[2019.04.17-16.05.02:580][ 19]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.05.02:597][ 19]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
+[2019.04.30-17.21.35:868][888]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.30-17.21.35:943][888]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.30-17.21.36:152][888]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 208.474ms to complete.
+[2019.04.30-17.21.36:154][888]LogFileHelpers: Loading map 'Level1' took 0.368
+[2019.04.30-17.22.30:446][117]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.30-17.22.30:467][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.04.30-17.22.30:467][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.30-17.22.30:479][117]PIE: New page: PIE session: Level1 (30 Apr 2019 19:22:30)
+[2019.04.30-17.22.30:479][117]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2019.04.30-17.22.30:619][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139080s)
+[2019.04.30-17.22.30:619][117]LogAIModule: Creating AISystem for world Level1
+[2019.04.30-17.22.30:619][117]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2019.04.30-17.22.30:619][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.139931s)
+[2019.04.30-17.22.30:649][117]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.30-17.22.30:770][117]LogInit: FAudioDevice initialized.
+[2019.04.30-17.22.30:816][117]LogLoad: Game class is 'GameModeBase'
+[2019.04.30-17.22.30:830][117]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
 	KnightAnimBlueprint_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
 	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.05.02:598][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.05.02:599][ 19]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.05.02
-[2019.04.17-16.05.02:601][ 19]LogWorld: Bringing up level for play took: 0.019556
-[2019.04.17-16.05.02:644][ 19]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2019.04.17-16.05.02:647][ 19]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 -0.426
-[2019.04.17-16.05.02:648][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.05.12:844][303]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.05.19:007][528]LogBlueprintUserMessages: [boss_animations_C_0] sweep
-[2019.04.17-16.05.19:007][528]LogScript: Warning: Accessed None trying to read property target
-	boss_animation_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.boss_animation_C_0
-	Function /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/boss_animation.boss_animation_C:ExecuteUbergraph_boss_animation:0577
-[2019.04.17-16.05.19:010][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  boss_animation Function:  Execute Ubergraph Boss Animation Graph:  EventGraph Node:  Move Component To
-[2019.04.17-16.05.20:584][572]LogBlueprintUserMessages: [bossAI_C_0] special
-[2019.04.17-16.05.21:028][584]LogScript: Warning: Accessed None trying to read property target
-	boss_animation_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.boss_animation_C_0
-	Function /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/boss_animation.boss_animation_C:ExecuteUbergraph_boss_animation:0043
-[2019.04.17-16.05.21:029][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  boss_animation Function:  Execute Ubergraph Boss Animation Graph:  EventGraph Node:  Move Component To
-[2019.04.17-16.05.23:043][653]LogScript: Warning: Accessed None trying to read property target
-	boss_animation_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.boss_animation_C_0
-	Function /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/boss_animation.boss_animation_C:ExecuteUbergraph_boss_animation:016A
-[2019.04.17-16.05.23:043][653]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property target". Blueprint:  boss_animation Function:  Execute Ubergraph Boss Animation Graph:  EventGraph Node:  Move Component To
-[2019.04.17-16.05.38:479][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.05.38:481][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.05.38:574][187]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.05.38:574][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.05.38:613][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.05.38:658][188]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.04.17-16.05.56:481][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.06.01:594][595]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Level1Stuff/PlayerUI.PlayerUI
-[2019.04.17-16.06.02:775][595]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2019.04.17-16.06.04:912][595]LogSlate: Took 0.007460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.04.17-16.06.40:716][567]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Level1Stuff/Enemy.Enemy
-[2019.04.17-16.06.41:776][568]LogSlate: Took 0.016045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.17-16.07.36:976][136]LogSlate: Window 'PlayerUI' being destroyed
-[2019.04.17-16.07.50:045][515]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Level1.Level1:PersistentLevel.Level1
-[2019.04.17-16.08.09:434][113]LogSlate: Window 'Level1 - Level Blueprint Editor' being destroyed
-[2019.04.17-16.08.09:472][113]LogSlate: Window 'Level1 - Level Blueprint Editor' being destroyed
-[2019.04.17-16.10.02:317][ 36]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2019.04.17-16.10.12:062][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.17-16.10.13:504][248]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.17-16.10.13:509][248]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Other/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2019.04.17-16.13.38:055][517]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.13.38:496][517]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.13.38:917][517]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.13.38:993][517]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.14.16:438][296]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.14.16:854][296]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.14.17:255][296]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.14.17:328][296]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.14.20:120][347]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.14.20:219][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.14.20:219][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.14.20:220][347]PIE: New page: PIE session: Level1 (17 Apr 2019 18:14:20)
-[2019.04.17-16.14.20:220][347]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.14.20:433][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.213665s)
-[2019.04.17-16.14.20:435][347]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.14.20:435][347]LogPlayLevel: PIE: World Init took: (0.001217s)
-[2019.04.17-16.14.20:435][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.215659s)
-[2019.04.17-16.14.20:581][347]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.14.20:601][347]LogInit: FAudioDevice initialized.
-[2019.04.17-16.14.20:637][347]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.14.20:653][347]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.14.20:654][347]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.14.20:655][347]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.14.20
-[2019.04.17-16.14.20:656][347]LogWorld: Bringing up level for play took: 0.017395
-[2019.04.17-16.14.20:674][347]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 -0.4
-[2019.04.17-16.14.20:674][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.14.30:410][599]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.15.01:292][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.15.01:294][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.15.01:440][625]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.15.01:441][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.15.01:490][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.15.01:898][626]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2019.04.17-16.15.03:253][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.15.18:496][157]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Level1Stuff/EnemyHealthbar.EnemyHealthbar
-[2019.04.17-16.16.30:017][516]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.16.30:390][516]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.16.30:683][516]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.16.30:769][516]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.16.32:614][563]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.16.32:718][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.16.32:718][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.16.32:719][563]PIE: New page: PIE session: Level1 (17 Apr 2019 18:16:32)
-[2019.04.17-16.16.32:719][563]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.16.32:940][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.220736s)
-[2019.04.17-16.16.32:941][563]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.16.32:942][563]LogPlayLevel: PIE: World Init took: (0.001454s)
-[2019.04.17-16.16.32:942][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.222982s)
-[2019.04.17-16.16.33:053][563]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.16.33:074][563]LogInit: FAudioDevice initialized.
-[2019.04.17-16.16.33:112][563]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.16.33:128][563]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.16.33:129][563]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.16.33:130][563]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.16.33
-[2019.04.17-16.16.33:132][563]LogWorld: Bringing up level for play took: 0.018319
-[2019.04.17-16.16.33:149][563]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 0.076
-[2019.04.17-16.16.33:149][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.16.36:859][645]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: true
-[2019.04.17-16.16.41:638][778]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.16.41:759][782]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=8000.000 Y=-1750.000 Z=-149.616] for [boss_animation_C]
-[2019.04.17-16.16.41:761][782]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.16.42:261][796]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: false
-[2019.04.17-16.16.57:715][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.16.57:717][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.16.57:856][325]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.16.57:857][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.16.57:895][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.16.58:319][326]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2019.04.17-16.16.59:030][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.17.02:883][467]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.17.50:322][705]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.17.50:677][705]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.17.50:983][705]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1
-	KnightAnimBlueprint_C /Game/Level1.Level1:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.KnightAnimBlueprint_C_0
-	Function /Game/Level1Stuff/knight/KnightAnimBlueprint.KnightAnimBlueprint_C:ExecuteUbergraph_KnightAnimBlueprint:0948
-[2019.04.17-16.17.53:109][762]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.17.53:214][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.17.53:215][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.17.53:216][762]PIE: New page: PIE session: Level1 (17 Apr 2019 18:17:53)
-[2019.04.17-16.17.53:216][762]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.17.53:444][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.227278s)
-[2019.04.17-16.17.53:445][762]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.17.53:445][762]LogPlayLevel: PIE: World Init took: (0.001054s)
-[2019.04.17-16.17.53:446][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.229113s)
-[2019.04.17-16.17.53:560][762]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.17.53:582][762]LogInit: FAudioDevice initialized.
-[2019.04.17-16.17.53:617][762]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.17.53:639][762]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.17.53:640][762]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.17.53
-[2019.04.17-16.17.53:642][762]LogWorld: Bringing up level for play took: 0.022976
-[2019.04.17-16.17.53:658][762]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 0.585
-[2019.04.17-16.17.53:658][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.17.56:801][825]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: true
-[2019.04.17-16.18.01:647][955]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.18.03:116][999]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: false
-[2019.04.17-16.18.22:334][680]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.18.22:336][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.18.22:482][680]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.18.22:483][680]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.18.22:526][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.18.22:931][681]LogPlayLevel: Display: Destroying online subsystem :Context_27
-[2019.04.17-16.18.23:516][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.18.54:202][635]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.18.56:651][670]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.18.56:748][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.18.56:748][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.18.56:749][670]PIE: New page: PIE session: Level1 (17 Apr 2019 18:18:56)
-[2019.04.17-16.18.56:749][670]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.18.56:943][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194213s)
-[2019.04.17-16.18.56:944][670]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.18.56:944][670]LogPlayLevel: PIE: World Init took: (0.001057s)
-[2019.04.17-16.18.56:945][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.195972s)
-[2019.04.17-16.18.57:059][670]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.18.57:080][670]LogInit: FAudioDevice initialized.
-[2019.04.17-16.18.57:113][670]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.18.57:133][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.18.57:134][670]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.18.57
-[2019.04.17-16.18.57:136][670]LogWorld: Bringing up level for play took: 0.021917
-[2019.04.17-16.18.57:153][670]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 0.08
-[2019.04.17-16.18.57:154][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.19.06:562][914]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.19.12:683][112]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 3.6
-[2019.04.17-16.19.14:660][182]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 14.0
-[2019.04.17-16.19.16:089][232]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 55.599998
-[2019.04.17-16.19.17:945][293]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 222.0
-[2019.04.17-16.19.19:135][334]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 887.599976
-[2019.04.17-16.19.20:114][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.19.20:116][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.19.20:273][367]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.19.20:274][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.19.20:325][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.19.20:701][368]LogPlayLevel: Display: Destroying online subsystem :Context_28
-[2019.04.17-16.19.21:471][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.22.05:325][750]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/boss_animation.boss_animation
-[2019.04.17-16.22.35:043][675]LogSlate: Took 0.013083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.04.17-16.23.04:052][643]BlueprintLog: New page: Compile boss_animation
-[2019.04.17-16.24.17:676][953]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.24.18:010][953]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a pin for the parameter NewParam of Boss Health on  Boss Health
-[2019.04.17-16.24.18:011][953]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Pin  Amount  named Amount doesn't match any parameters of function Boss Health
-[2019.04.17-16.24.18:442][953]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [1577.32] Compile of ThirdPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 765 ms] (/Game/Other/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2019.04.17-16.24.55:034][145]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.24.55:381][145]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a pin for the parameter NewParam of Boss Health on  Boss Health
-[2019.04.17-16.24.55:381][145]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Pin  Amount  named Amount doesn't match any parameters of function Boss Health
-[2019.04.17-16.24.55:834][145]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [1614.71] Compile of ThirdPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 799 ms] (/Game/Other/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2019.04.17-16.25.29:010][176]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.25.35:614][347]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.25.35:731][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.25.35:732][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.25.35:732][347]PIE: New page: PIE session: Level1 (17 Apr 2019 18:25:35)
-[2019.04.17-16.25.35:732][347]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.25.35:960][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.228393s)
-[2019.04.17-16.25.35:961][347]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.25.35:962][347]LogPlayLevel: PIE: World Init took: (0.001326s)
-[2019.04.17-16.25.35:962][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.230527s)
-[2019.04.17-16.25.36:079][347]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.25.36:102][347]LogInit: FAudioDevice initialized.
-[2019.04.17-16.25.36:136][347]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.25.36:155][347]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.25.36:157][347]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.25.36
-[2019.04.17-16.25.36:158][347]LogWorld: Bringing up level for play took: 0.020662
-[2019.04.17-16.25.36:175][347]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 1.102
-[2019.04.17-16.25.36:176][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.25.45:767][593]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.25.55:748][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.25.55:749][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.25.55:906][915]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.25.55:907][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.25.55:959][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.25.56:371][916]LogPlayLevel: Display: Destroying online subsystem :Context_32
-[2019.04.17-16.25.57:127][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.26.45:091][368]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.26.47:376][403]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.26.47:501][403]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.26.47:502][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.26.47:502][403]PIE: New page: PIE session: Level1 (17 Apr 2019 18:26:47)
-[2019.04.17-16.26.47:503][403]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.26.47:732][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.229212s)
-[2019.04.17-16.26.47:733][403]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.26.47:733][403]LogPlayLevel: PIE: World Init took: (0.001182s)
-[2019.04.17-16.26.47:734][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.231091s)
-[2019.04.17-16.26.47:842][403]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.26.47:863][403]LogInit: FAudioDevice initialized.
-[2019.04.17-16.26.47:897][403]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.26.47:914][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.26.47:915][403]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.26.47
-[2019.04.17-16.26.47:916][403]LogWorld: Bringing up level for play took: 0.018075
-[2019.04.17-16.26.47:933][403]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 0.86
-[2019.04.17-16.26.47:934][403]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.26.51:062][468]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: true
-[2019.04.17-16.26.56:747][620]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.26.58:296][669]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: false
-[2019.04.17-16.27.00:195][737]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 0.6
-[2019.04.17-16.27.02:021][804]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 0.2
-[2019.04.17-16.27.03:232][847]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -0.2
-[2019.04.17-16.27.04:411][889]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -0.6
-[2019.04.17-16.27.06:206][953]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -1.0
-[2019.04.17-16.27.07:426][997]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -1.4
-[2019.04.17-16.27.08:599][ 39]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -1.8
-[2019.04.17-16.27.10:504][110]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -2.2
-[2019.04.17-16.27.11:183][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.27.11:184][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.27.11:339][135]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.27.11:340][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.27.11:390][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.27.11:755][136]LogPlayLevel: Display: Destroying online subsystem :Context_33
-[2019.04.17-16.27.12:743][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.27.52:885][449]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Boss_Bar.Boss_Bar
-[2019.04.17-16.27.53:452][449]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Boss_Bar.Boss_Bar_C:ExecuteUbergraph_Boss_Bar'!
-[2019.04.17-16.27.53:453][449]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
-	Boss_Bar_C /Engine/Transient.World_27:Boss_Bar_C_1
-	Function /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Boss_Bar.Boss_Bar_C:ExecuteUbergraph_Boss_Bar:00A6
-[2019.04.17-16.27.53:453][449]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
-	Boss_Bar_C /Engine/Transient.World_27:Boss_Bar_C_1
-	Function /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Boss_Bar.Boss_Bar_C:ExecuteUbergraph_Boss_Bar:00C5
-[2019.04.17-16.27.53:454][449]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
-Script call stack:
-	Function /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Boss_Bar.Boss_Bar_C:PreConstruct
-	Function /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Boss_Bar.Boss_Bar_C:ExecuteUbergraph_Boss_Bar
-
-[2019.04.17-16.28.03:784][781]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/boss_animations.boss_animations
-[2019.04.17-16.28.03:911][781]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.04.17-16.28.04:522][781]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.04.17-16.28.04:592][781]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2019.04.17-16.28.05:397][781]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2019.04.17-16.28.54:596][274]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/bossAI.bossAI
-[2019.04.17-16.29.37:490][609]BlueprintLog: New page: Compile boss_animation
-[2019.04.17-16.29.37:891][609]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  New Param  no longer exists on node  Boss Health . Please refresh node or break links to remove pin.
-[2019.04.17-16.29.37:939][609]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [1896.82] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 429 ms] (/Game/Other/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2019.04.17-16.29.43:413][758]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.29.43:478][758]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.29.43:479][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.29.45:306][758]LogSlate: Window 'Message' being destroyed
-[2019.04.17-16.29.46:059][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.29.46:157][789]BlueprintLog: New page: Compile boss_animation
-[2019.04.17-16.29.46:504][789]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  New Param  no longer exists on node  Boss Health . Please refresh node or break links to remove pin.
-[2019.04.17-16.29.46:557][789]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [1905.44] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 378 ms] (/Game/Other/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2019.04.17-16.30.37:862][368]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.30.40:487][420]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.30.40:628][420]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.30.40:628][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.30.40:629][420]PIE: New page: PIE session: Level1 (17 Apr 2019 18:30:40)
-[2019.04.17-16.30.40:629][420]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.30.40:840][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.210603s)
-[2019.04.17-16.30.40:841][420]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.30.40:841][420]LogPlayLevel: PIE: World Init took: (0.001056s)
-[2019.04.17-16.30.40:841][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.212321s)
-[2019.04.17-16.30.40:956][420]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.30.40:978][420]LogInit: FAudioDevice initialized.
-[2019.04.17-16.30.41:012][420]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.30.41:029][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.30.41:031][420]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.30.41
-[2019.04.17-16.30.41:032][420]LogWorld: Bringing up level for play took: 0.018228
-[2019.04.17-16.30.41:048][420]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 -0.026
-[2019.04.17-16.30.41:049][420]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.30.43:073][463]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: true
-[2019.04.17-16.30.47:185][580]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.30.47:643][593]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=7823.840 Y=-1781.846 Z=41.662] for [boss_animation_C]
-[2019.04.17-16.30.47:644][593]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.30.49:494][649]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: false
-[2019.04.17-16.30.55:951][867]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.30.55:952][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.30.56:136][867]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.30.56:137][867]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.30.56:203][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.30.56:619][868]LogPlayLevel: Display: Destroying online subsystem :Context_39
-[2019.04.17-16.30.58:023][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.31.00:429][983]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2019.04.17-16.31.02:755][ 19]LogTemp: Repeating last play command: Selected Viewport
-[2019.04.17-16.31.02:895][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.31.02:896][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.17-16.31.02:896][ 19]PIE: New page: PIE session: Level1 (17 Apr 2019 18:31:02)
-[2019.04.17-16.31.02:896][ 19]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2019.04.17-16.31.03:136][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.238896s)
-[2019.04.17-16.31.03:137][ 19]LogAIModule: Creating AISystem for world Level1
-[2019.04.17-16.31.03:137][ 19]LogPlayLevel: PIE: World Init took: (0.001083s)
-[2019.04.17-16.31.03:137][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.240758s)
-[2019.04.17-16.31.03:266][ 19]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.17-16.31.03:288][ 19]LogInit: FAudioDevice initialized.
-[2019.04.17-16.31.03:321][ 19]LogLoad: Game class is 'GameModeBase'
-[2019.04.17-16.31.03:342][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
-[2019.04.17-16.31.03:344][ 19]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.04.17-17.31.03
-[2019.04.17-16.31.03:345][ 19]LogWorld: Bringing up level for play took: 0.022414
-[2019.04.17-16.31.03:363][ 19]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 0.29
-[2019.04.17-16.31.03:364][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.31.04:889][ 43]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: true
-[2019.04.17-16.31.11:197][216]PIE: Warning: The widget 'Boss_Bar_C' was already added to the screen.
-[2019.04.17-16.31.12:739][264]LogBlueprintUserMessages: [ThirdPersonCharacter_2] on horse: false
-[2019.04.17-16.31.14:406][318]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 0.6
-[2019.04.17-16.31.15:604][358]LogBlueprintUserMessages: [ThirdPersonCharacter_2] 0.2
-[2019.04.17-16.31.18:024][447]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -0.2
-[2019.04.17-16.31.19:237][492]LogBlueprintUserMessages: [ThirdPersonCharacter_2] -0.6
-[2019.04.17-16.31.20:932][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.31.20:933][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.31.21:103][549]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.17-16.31.21:104][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2019.04.17-16.31.21:163][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.17-16.31.21:591][550]LogPlayLevel: Display: Destroying online subsystem :Context_40
-[2019.04.17-16.31.23:948][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.17-16.31.24:060][623]LogSlate: Window 'bossAI*' being destroyed
-[2019.04.17-16.31.24:090][623]LogSlate: Window 'bossAI*' being destroyed
-[2019.04.17-16.31.24:379][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2019.04.17-16.31.24:786][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2019.04.17-16.31.25:815][657]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.17-16.31.29:139][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.17-16.31.30:880][733]LogSavePackage: Moving '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Saved/Level1B55CEBE94D6D2FA3A2463BB8D8100E5B.tmp' to '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1.umap'
-[2019.04.17-16.31.30:925][733]LogFileHelpers: Saving map 'Level1' took 2.097
-[2019.04.17-16.31.31:300][733]LogSavePackage: Moving '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Saved/ThirdPersonCharacter21715F3943CD0A49DFE413B65ECF11BC.tmp' to '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Other/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2019.04.17-16.31.31:415][733]LogSavePackage: Moving '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Saved/boss_animation2156608441E297CF13D361B55511C236.tmp' to '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/boss_animation.uasset'
-[2019.04.17-16.31.31:484][733]LogSavePackage: Moving '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Saved/bossAIC90460914D5CD03B2BFBB0ABD7210286.tmp' to '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/bossAI.uasset'
-[2019.04.17-16.31.34:331][810]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2019.04.17-16.31.43:644][810]LogSlate: Window 'Submit Files' being destroyed
-[2019.04.17-16.31.47:276][810]LogSourceControl: commit successful: [master 0c956e9] boss damaged by player
-[2019.04.17-16.31.47:632][810]SourceControl: [master 0c956e9] boss damaged by player
-[2019.04.17-16.31.47:632][810]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
-[2019.04.17-16.31.47:632][810]SourceControl:  rewrite Content/Other/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset (73%)
-[2019.04.17-16.31.47:649][810]SourceControl: Commited [master 0c956e9] boss damaged by player.
-[2019.04.17-16.32.05:577][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.17-16.32.07:132][864]LogSavePackage: Moving '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Saved/Level1827D33E749C427E5AD2878893F15C1C8.tmp' to '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1.umap'
-[2019.04.17-16.32.07:291][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1_BuiltData" FILE="../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1_BuiltData.uasset" SILENT=true
-[2019.04.17-16.32.09:052][864]LogSavePackage: Moving '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Saved/Level1_BuiltDataFE56563F4D9172EABBFDA09C875B12D8.tmp' to '../../../../../../Users/pokim/OneDrive/Documents/GitHub/GitProject/Content/Level1_BuiltData.uasset'
+[2019.04.30-17.22.30:830][117]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue1". Blueprint:  KnightAnimBlueprint Function:  Execute Ubergraph Knight Anim Blueprint Graph:  EventGraph Node:  Set PlayerSpeed
+[2019.04.30-17.22.30:832][117]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2019.04.30-18.22.30
+[2019.04.30-17.22.30:834][117]LogWorld: Bringing up level for play took: 0.015503
+[2019.04.30-17.22.30:853][117]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.04.30-17.22.30:856][117]PIE: Play in editor start time for /Game/UEDPIE_0_Level1 -0.379
+[2019.04.30-17.22.30:863][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.04.30-17.22.36:382][334]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.04.30-17.22.36:382][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-17.22.36:463][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.30-17.22.36:463][334]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2019.04.30-17.22.36:489][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.30-17.22.36:523][335]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.04.30-17.22.39:476][449]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Crow)
+[2019.04.30-17.23.10:056][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.30-17.23.10:258][584]LogSlate: Window 'GitProject - Unreal Editor' being destroyed
+[2019.04.30-17.23.10:260][584]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.30-17.23.10:493][585]Cmd: QUIT_EDITOR
+[2019.04.30-17.23.10:969][585]LogExit: Preparing to exit.
+[2019.04.30-17.23.11:477][585]LogExit: Editor shut down
+[2019.04.30-17.23.11:477][585]LogExit: Transaction tracking system shut down
+[2019.04.30-17.23.12:146][585]LogExit: Object subsystem successfully closed.
+[2019.04.30-17.23.12:168][585]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.30-17.23.12:173][585]LogD3D11RHI: Shutdown
+[2019.04.30-17.23.12:173][585]LogD3D11RHI: CleanupD3DDevice
+[2019.04.30-17.23.12:178][585]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.30-17.23.12:234][585]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.04.30-17.23.12:234][585]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.04.30-17.23.12:234][585]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.04.30-17.23.12:234][585]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.04.30-17.23.12:234][585]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.04.30-17.23.12:237][585]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.04.30-17.23.12:237][585]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.04.30-17.23.12:237][585]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.04.30-17.23.12:237][585]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2019.04.30-17.23.12:237][585]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.04.30-17.23.12:237][585]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.30-17.23.12:237][585]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.30-17.23.12:238][585]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.30-17.23.12:239][585]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.30-17.23.12:240][585]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.30-17.23.12:240][585]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.30-17.23.12:240][585]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.30-17.23.12:240][585]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.30-17.23.12:240][585]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.30-17.23.12:240][585]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.30-17.23.13:209][585]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.30-17.23.13:210][585]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.30-17.23.13:276][585]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.30-17.23.13:278][585]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.30-17.23.13:279][585]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.30-17.23.13:279][585]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.30-17.23.13:279][585]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.30-17.23.13:505][585]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.30-17.23.13:505][585]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.30-17.23.13:505][585]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.30-17.23.13:505][585]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.30-17.23.13:505][585]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.30-17.23.13:506][585]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.30-17.23.13:513][585]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.30-17.23.13:514][585]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.30-17.23.13:515][585]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.30-17.23.13:616][585]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.30-17.23.13:717][585]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.30-17.23.13:717][585]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.30-17.23.13:717][585]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.30-17.23.13:717][585]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.30-17.23.13:717][585]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.30-17.23.13:717][585]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.30-17.23.13:717][585]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.30-17.23.13:719][585]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.30-17.23.13:719][585]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.30-17.23.13:719][585]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.30-17.23.13:719][585]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.30-17.23.13:720][585]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.30-17.23.13:721][585]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.30-17.23.13:721][585]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.30-17.23.13:721][585]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.30-17.23.13:721][585]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.30-17.23.13:721][585]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.30-17.23.13:721][585]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.30-17.23.13:723][585]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.30-17.23.13:729][585]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.30-17.23.13:729][585]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.30-17.23.13:729][585]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.30-17.23.13:729][585]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.30-17.23.13:729][585]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.30-17.23.13:730][585]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.30-17.23.13:731][585]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.30-17.23.13:732][585]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.30-17.23.13:763][585]LogDerivedDataCache: Shutdown
+[2019.04.30-17.23.13:763][585]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.30-17.23.13:763][585]LogXGEController: Cleaning working directory: C:/Users/ezich/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.30-17.23.13:764][585]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.30-17.23.13:765][585]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.30-17.23.13:765][585]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.30-17.23.13:766][585]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.30-17.23.13:766][585]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.30-17.23.13:771][585]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.30-17.23.13:772][585]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.30-17.23.13:772][585]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.30-17.23.13:773][585]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.30-17.23.13:790][585]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.30-17.23.13:790][585]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.30-17.23.13:790][585]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B50A0D0C7-49BE-B9AF-04DE-E4B6EE56E9C2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=fb25b6f842fc8567f9714d9f336a324e%7Cf39c45dd0e544ca2a32d761d0acd721f%7Cdb7cfdf0-b346-4cae-a3e7-bc5c10720c0a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.30-17.23.13:809][585]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.30-17.23.13:810][585]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.30-17.23.13:810][585]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.30-17.23.13:810][585]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.30-17.23.13:810][585]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.30-17.23.13:810][585]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.30-17.23.13:810][585]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.30-17.23.13:810][585]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.30-17.23.13:811][585]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.30-17.23.13:811][585]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.30-17.23.13:812][585]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.30-17.23.13:820][585]LogExit: Exiting.
+[2019.04.30-17.23.13:832][585]Log file closed, 04/30/19 18:23:13
